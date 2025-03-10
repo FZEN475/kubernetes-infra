@@ -1,0 +1,4 @@
+---
+
+- name: Secrets
+  ansible.builtin.import_playbook: ./playbooks/secrets.yaml
